@@ -46,11 +46,11 @@
       "name": "CredtApp.exe"
     }
   },
-  "scripts": {},
+  "scripts": {"postinstall": "esy"},
   "dependencies": {
-    "tablecloth-bucklescript": "eldh/tablecloth#bs8"
+    "tablecloth-bucklescript": "*"
   },
   "devDependencies": {
-    "bs-platform": "^8.0.3"
+    "esy":"*"
   }
 }

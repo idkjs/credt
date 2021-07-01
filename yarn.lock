@@ -2,11 +2,12 @@
 # yarn lockfile v1
 
 
-bs-platform@^8.0.3:
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-8.0.3.tgz#574e41ec04fee381d4c400dac547735368caa48f"
-  integrity sha512-I7wulOPM0/NGamwm9CDh9rGjW1oIKltPwwEIOJrL8DBFRXI8OFSACtWGlpaoOw76Xpf+KcVokr00keS2NlzA3A==
+esy@*:
+  version "0.6.10"
+  resolved "https://registry.yarnpkg.com/esy/-/esy-0.6.10.tgz#918de2ad7e40793978c63b8216563408527cc25e"
+  integrity sha512-O+mWNPB9NJqDr3CA1PUbWUO1ZSy53ksZWivGrvbquATR5INlp3CYguwkq4BzZACg1s1bVYyhr7byjB/l1nuGRA==
 
-tablecloth-bucklescript@eldh/tablecloth#bs8:
-  version "0.0.6"
-  resolved "https://codeload.github.com/eldh/tablecloth/tar.gz/f7f94fca63819c32c1af527e86191b475e82af9c"
+tablecloth-bucklescript@*:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/tablecloth-bucklescript/-/tablecloth-bucklescript-0.0.7.tgz#635f66b773900cac4ee8287a8d2b21a294b7f038"
+  integrity sha512-LR509lBXGDZcunx74BxdP5AgmeGpNPe4VKbH7edADjHor7hLa1MNFy5EbuL5HgrI893sGxTpBwlQq7nKJ0O9Fg==

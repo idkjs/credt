@@ -10,7 +10,7 @@ module type Config = {
 module IMap =
   Stdlib.Map.Make({
     type t = Util.id;
-    let compare = Pervasives.compare;
+    let compare = Stdlib.compare;
   });
 
 type changeListenerT('operation) = list('operation) => unit;
